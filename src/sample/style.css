@@ -1,0 +1,38 @@
+.root{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Open Sans";
+    -fx-background: slategray;
+    -fx-font-weight: normal;
+}
+.button{
+    -fx-border-color: purple;
+    -fx-border-radius: 5;
+    -fx-padding: 3 6 6 6;
+}
+.AnchorPane{
+    -fx-margin-top: 30px;
+}
+#url-toggle{
+    -fx-background: slategray;
+    -fx-border-color: transparent;
+}
+#scene-title{
+    -fx-font-size: 32px;
+    -fx-font-family: "Arial Black";
+    -fx-fill: #696969;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#warning-text{
+     -fx-font-size: 100px;
+   -fx-font-family: "Arial Black";
+   -fx-fill: red;
+   -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#album-container{
+    -fx-width: 700px;
+    -fx-background-color: purple;
+    -fx-border-radius: 100px;
+}
+#album-id, #album-title, #album-id-label, #album-title-label{
+    -fx-font-weight: bolder;
+}

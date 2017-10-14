@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="The Albumonizer">
+    <output-path>$PROJECT_DIR$/out/artifacts/The_Albumonizer</output-path>
+    <root id="archive" name="The Albumonizer.jar">
+      <element id="module-output" name="The Albumonizer" />
+    </root>
+  </artifact>
+</component>
